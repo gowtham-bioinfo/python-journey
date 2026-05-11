@@ -32,7 +32,7 @@ print(type(2026))
 print(type(1.4))
 print(type([1,2,3]))
 
-# Question 3:
+# Question 4:
 # Find the length of your first name using built in function
 
 print(len(first_name))
@@ -50,7 +50,7 @@ elif len(last_name) > len(first_name) :
 else :
     print(f"Both are equal")
 
-# Question 4:
+# Question 5:
 # Declare 5 as Num1  4 as Num2 and do "+" , "-" , "*" , "/" , "%" , "**" , "//" 
 num1 = 5
 num2 = 4
@@ -71,7 +71,7 @@ print("remainder :" , remainder)
 print("exp :" , exp)
 print("floor_division :" , floor_division)
 
-# Question 5:
+# Question 6:
 # Calculate area of circle
 # Calculate circum of circle 
 import math
@@ -88,7 +88,7 @@ radius = int(input("Enter radius :"))
 area = math.pi * radius ** 2
 print("Area of Circle :" , area)
 
-# Question 5:
+# Question 7:
 # Use Built in input function to get the first name , last name , full name , country , city , ag e, year , is_married , is_true , is_light_on
 
 
