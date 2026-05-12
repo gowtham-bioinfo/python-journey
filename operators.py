@@ -146,14 +146,14 @@ rate_per_hour = int(input("Enter Pay Per Hour :"))
 result = hours * rate_per_hour
 print(f"Pay Of The Person , {result}")
 
-# Question 15 :
+# Question 16 :
 #Write a script that prompts the user to enter number of years. Calculate the number of seconds a person can live. Assume a person can live hundred years
 
 num_y = int(input("Number of Years :"))
 seconds = num_y * 365 * 24 * 60 * 60
 print(f"You have lived for {seconds} seconds ")
 
-# Question 16 :
+# Question 17 :
 # Write a Python script that displays the following table
 # 1 1 1 1 1
 # 2 1 2 4 8
