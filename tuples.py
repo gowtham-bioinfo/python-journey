@@ -8,3 +8,5 @@ Create a tuple containing names of your sisters and your brothers (imaginary sib
 Join brothers and sisters tuples and assign it to siblings
 How many siblings do you have?
 Modify the siblings tuple and add the name of your father and mother and assign it to family_members
+
+## MY CODE FOR EXERCISE 1 PROBLEMS
