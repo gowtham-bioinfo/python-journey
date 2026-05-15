@@ -14,3 +14,56 @@ Get the dictionary values as a list
 Change the dictionary to a list of tuples using items() method
 Delete one of the items in the dictionary
 Delete one of the dictionaries
+
+
+
+## MY CODE FOR ALL PROBLEMS 
+
+empty = {}
+print(type(empty))
+
+dog = {
+"name" :"Daisy",
+"colour" : "Golden Brown",
+"breed" : "Golden Brown",
+"lges" : "Good",
+"age" : 4,
+}
+
+student = {
+"first_name" : "Dileep",
+"last_name" : "Gowtham",
+"gender" : "Male",
+"age" : 20,
+"marital_status " : "Unmarried",
+"skills" : ["Python", "Anatomy", "Physiology", "Terminology"],
+"country" : "Inida",
+"city" : "Anantapur", 
+"address" : "Uma Nagar"
+}
+
+
+
+print(student)
+print(len(student))
+
+print(student["skills"])
+print(type(student["skills"]))
+
+print(len(student))
+
+
+
+student["skills"].append("SQL")
+print(student)
+
+student["skills"].extend(["BioInfo, GitHub"])
+print(student)
+
+print(list(student))
+print(list[student])
+
+print(student.items())
+
+del student["first_name"]
+del student
