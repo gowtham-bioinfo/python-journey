@@ -115,6 +115,55 @@ The sum of all evens is 2550. And the sum of all odds is 2500.
 
 
 
+sum = 0
+for i in range (0,101) :
+    sum += i
+    i += 1
+print("Sum Of All Numbers is =", sum)    
+
+
+
+evn_sum = 0
+odds_sum = 0
+
+for i in range (0,101) :
+    if i % 2 == 0 :
+        evn_sum += i
+    else :
+        odds_sum += i
+print("The sum of all evens is =", evn_sum)       
+print("The sum of all odds is =", odds_sum) 
+
+
+
+
+
+## Day 9 : 30 Days of python programming
+
+## Exercises: Level 3
+
+
+
+
+Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
+This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
+Go to the data folder and use the countries_data.py file.
+What are the total number of languages in the data
+Find the ten most spoken languages from the data
+Find the 10 most populated countries in the world
+
+
+
+
+
+
+
+## MY CODE FOR ALL EX3 PROBLEMS 
+
+
+
+
+
 
 
 
