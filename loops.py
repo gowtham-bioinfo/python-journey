@@ -186,6 +186,22 @@ print("Total Number of languages =", len(languages))
 
 
 
+from collections import Counter
+
+languages_count = Counter()
+
+for country in info :
+    for language in country["languages"] :
+        languages_count[language] += 1
+
+most_common_language = languages_count.most_common(1)[0]
+
+print("Most Spoken Language :", most_common_language[0])
+print("Count :", most_common_language[1])
+
+
+
+
 
 
 
