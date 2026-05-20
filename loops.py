@@ -47,4 +47,78 @@ Use for loop to iterate from 0 to 100 and print only odd numbers
 
 
 
+
+
 ## MY CODE FOR ALL EX1 PROBLEMS
+
+
+
+for i in range (0,11) :
+    print(i)
+
+i = 1
+while i <= 10 :
+    print(i)    
+    i += 1
+
+
+for i in range (1,8) :
+    print("#" * i)
+
+for i in range (1,8) :
+    for j in range (1,8) :
+        print("#", end = " ")
+    print()        
+
+for i in range (0,11) :
+    print(i, "x", i, "=", i*i)    
+
+
+list = ['Python', 'Numpy','Pandas','Django', 'Flask']  
+for char in list :
+    print(char)  
+
+for i in range (0,101) :
+    if i % 2 == 0 :
+        print(i)
+
+
+for i in range (1,101) :
+    if i % 2 != 0 :
+        print(i)
+
+
+
+
+
+
+
+
+## Day 9 : 30 Days of python programming
+
+
+Exercises: Level 2
+
+
+Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+The sum of all numbers is 5050.
+Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+
+The sum of all evens is 2550. And the sum of all odds is 2500.
+
+
+
+
+
+
+## MY CODE FOR ALL EX2 PROBLEMS 
+
+
+
+
+
+
+
+
+
+
