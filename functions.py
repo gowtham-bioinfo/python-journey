@@ -1,4 +1,4 @@
-## Day 9 : 30 Days of python programming
+## Day 10 : 30 Days of python programming
 
 ## Exercises: Level 1
 
