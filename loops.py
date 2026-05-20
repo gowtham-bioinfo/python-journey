@@ -175,6 +175,14 @@ print(rev_fruits)
 
 
 
+languages = set()
+
+for item in info :
+    for lang in item ["languages"] :
+        languages.add(lang) 
+
+print("Total Number of languages =", len(languages))
+
 
 
 
