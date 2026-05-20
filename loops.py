@@ -217,5 +217,14 @@ print("Count :", most_common_languages[1])
 
 
 
+sorted_countries = sorted(info, key=lambda x : x["population"], reverse=True)
+
+top_10 = sorted_countries[:10]
+for country in top_10 :
+    print(country["name"], country["population"])
+
+
+
+
 
 
