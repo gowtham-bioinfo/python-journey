@@ -162,6 +162,18 @@ Find the 10 most populated countries in the world
 
 
 
+for country in countries :
+    if "land" in country :
+        print(country)
+
+fruits = ['banana', 'orange', 'mango', 'lemon']
+
+rev_fruits = []
+for i in range (len(fruits)-1,-1,-1) :
+    rev_fruits.append(fruits[i])
+print(rev_fruits)
+
+
 
 
 
