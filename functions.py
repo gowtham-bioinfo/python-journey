@@ -102,4 +102,11 @@ print(check_season("August"))
 
 #6
 
+def calculate_slope (x1,y1,x2,y2) :
+   slope = (y1-y2) / (x1-x2)
+   return slope
+print(calculate_slope(2,5,7,3))
+
+
+#7
 
