@@ -43,3 +43,13 @@ Declare a function named sum_of_even. It takes a number parameter and it adds al
 
 
 ## MY CODE FOR ALL EX1 PROBLEMS
+
+
+def add_two_nums(num1,num2) :
+  total = num1 + num2
+  print(total)
+add_two_nums(67,29) 
+
+
+
+
