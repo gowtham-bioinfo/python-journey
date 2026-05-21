@@ -44,21 +44,21 @@ Declare a function named sum_of_even. It takes a number parameter and it adds al
 
 ## MY CODE FOR ALL EX1 PROBLEMS
 
-
+#1
 def add_two_nums(num1,num2) :
   total = num1 + num2
   print(total)
 add_two_nums(67,29) 
 
 
-
+#2
 def calculate_area_of_circle(r) :
   PI = 3.14
   area = PI * r ** 2
   print(area)
   return area
 
-
+#3
 def add_all_nums(*args) :
    total = 0
    for item in args :
@@ -71,5 +71,17 @@ def add_all_nums(*args) :
 print(add_all_nums(2,3,5))
 print(add_all_nums(2,3, "Hello"))
 
+
+
+#4
+
+def convertor (celcius) :
+   farenheit = (celcius * 9/5) + 32
+   return farenheit
+print(convertor(32))
+
+
+
+#5
 
 
