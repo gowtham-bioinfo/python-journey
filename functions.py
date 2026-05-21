@@ -59,4 +59,17 @@ def calculate_area_of_circle(r) :
   return area
 
 
+def add_all_nums(*args) :
+   total = 0
+   for item in args :
+      if type(item) == int or type(item) == float :
+         total += item
+      else :
+         return f"Error : '{item}' is not a Number"
+   return total
+   
+print(add_all_nums(2,3,5))
+print(add_all_nums(2,3, "Hello"))
+
+
 
