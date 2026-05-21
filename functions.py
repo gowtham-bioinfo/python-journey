@@ -130,3 +130,14 @@ print(solve_quadratic_eqn(1,-5,6))
 #8
 
 
+def print_list(list) :
+   for item in list :
+      print(item)
+
+print_list([8,5,7,3])  
+
+
+
+#9
+
+
