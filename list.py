@@ -66,8 +66,9 @@ After joining the lists in question 26. Copy the joined list and assign it to a 
 
 
   
-
+#1
 empty = []
+#2
 list = ["Dileep", "Gowtham", "Anything", 5.8, 2005, "Arya"]
 print(len(list))
 
