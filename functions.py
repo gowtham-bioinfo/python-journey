@@ -85,3 +85,21 @@ print(convertor(32))
 #5
 
 
+def check_season(month) :
+    if month == "December" or month == "January" or month == "February" :
+        return "Winter"
+    if month == "March" or month == "April" or month == "May" :
+        return "Spring"
+    if month == "June" or month == "July" or month == "August" :
+        return "Summer"
+    else :
+        return "Autumn"
+    
+print(check_season("August"))
+
+
+
+
+#6
+
+
