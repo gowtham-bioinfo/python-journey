@@ -110,3 +110,23 @@ print(calculate_slope(2,5,7,3))
 
 #7
 
+import math
+
+def solve_quadratic_eqn (a,b,c) :
+   d = b**2 - 4*a*c
+   if d > 0 :
+      x1 = (-b + math.sqrt(d)) /(2*a)
+      x2 = (-b - math.sqrt(d)) /(2*a)
+      return x1, x2
+   elif d == 0 :
+      x = -b /(2*a)
+      return x
+   else :
+      return "No Real Solutions"
+print(solve_quadratic_eqn(1,-5,6))
+
+
+
+#8
+
+
