@@ -52,4 +52,11 @@ add_two_nums(67,29)
 
 
 
+def calculate_area_of_circle(r) :
+  PI = 3.14
+  area = PI * r ** 2
+  print(area)
+  return area
+
+
 
