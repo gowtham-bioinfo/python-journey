@@ -47,23 +47,29 @@ Write a Python script that displays the following table
 
 ## MY CODE FOR ALL QUESTION
 # Day 2 : 30 Days of python programming | start = 7:28 pm | End  = 12:20 am
-        
+
+#1       
 age = 20
+#2       
 height = 5.8
+#3        
 comp = 18j
 
+#4
 base = int(input("Enter Base :"))
 
 height = int(input("Enter Height :"))
 area = 0.5 * base * height
 print(f"Area Of Triangle is {area}")
 
+#5
 side_a = int(input("Enter Side A :"))
 side_b = int(input("Enter Side B :"))
 side_c = int(input("Enter Side C :"))
 peri = side_a + side_b + side_c
 print(f"Perimeter Of The Triangle is {peri}")
-
+    
+#6
 length = int(input("Enter Length :"))
 width = int(input("Enter Width :"))
 area = length * width 
@@ -72,6 +78,7 @@ perimeter = 2 * (length + width)
 print(f"Area of Rectangle is {area}")
 print(f"Perimeter of Rectangle is {perimeter}")
 
+#7
 radius = float(input("Enter Radius :"))
 pi = 3.14
 area = pi * radius * radius
@@ -79,6 +86,7 @@ c =  2 * pi * radius
 print(f"Radius of Circle is {area}" )
 print(f"Circumstances of Circle {c}")
 
+#8
 # y = 2x - 2
 
 m = 2          # slope
@@ -89,7 +97,8 @@ print("Slope:", m)
 print("X-intercept:", x_intercept)
 print("Y-intercept:", y_intercept)
 
-
+           
+#9
 python = "Python"
 dragon = "Dragon"
 
@@ -100,24 +109,27 @@ print(len(dragon))
 a =len(python) != len(dragon)
 print(a)
 
+#10
 python = "Python"
 dragon = "Dragon"
 
 result = "on" in python and "on" in dragon 
 print(result)
 
+
+#11
 ab = "i hope this course is not full of jargon :"
 result = "jargon" in ab
 print(result)
 
-
+#12
 python = "Python"
 dragon = "Dragon"
 
 result = "on" not in python and "on" not in dragon
 print(result)
 
-
+#13
 text = "Python"
 length = len(text)
 fl = float(length)
@@ -127,37 +139,43 @@ print(length)
 print(fl)
 print(st)
 
-
+#14
 num1 = int(input("Enter a number :"))
 if num1 % 2 == 0 :
     print("Even Number")
 else :
     print("Odd Number")    
-    
+
+#15  
 num1 = 7/3
 num2 = int(2.7)
 print(num1==num2)
 
+
+#16
 num1 = 10
 num2 = 10
 print(type(num1) == type(num2))
 
+
+#17
 num1 = 9.8
 num2 = 10
 print(num1 == num2)
 
-
+#18
 hours = int(input("Enter Hours :"))
 rate_per_hour = int(input("Enter Pay Per Hour :"))
 result = hours * rate_per_hour
 print(f"Pay Of The Person , {result}")
 
-
+#19
 num_y = int(input("Number of Years :"))
 seconds = num_y * 365 * 24 * 60 * 60
 print(f"You have lived for {seconds} seconds ")
 
-
+       
+#20
 # Write a Python script that displays the following table
 # 1 1 1 1 1
 # 2 1 2 4 8
@@ -165,6 +183,8 @@ print(f"You have lived for {seconds} seconds ")
 # 4 1 4 16 64
 # 5 1 5 25 125
 
+
+#21       
 for i in range (1,6) :
     print(i , i**0 , i**1 , i**2 , i**3)
 
