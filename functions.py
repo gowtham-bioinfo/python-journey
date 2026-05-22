@@ -343,7 +343,12 @@ print(factorial(5))
 
 #3
 
+def is_empty (item) :
+   return len(item) == 0 
 
+print(is_empty(" "))
+print(is_empty([]))
+print(is_empty(())) 
 
 
 
