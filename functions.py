@@ -172,7 +172,39 @@ print(capitalize_list_items(["t", "y", "p", "a"]))
 #11
 
 
+def add_item(lst,item) :
+   added_lst = []
+   for i in lst :
+      added_lst.append(i)
+
+   added_lst.append(item) 
+   return added_lst
+
+print(add_item(["Mango", "Apple", "Orange", "Banana"], "Watermelon"))                  
+                  
+                  
+
+def add_items (lst, item) :
+   food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
+   for i in lst :
+      food_stuff.append(i)
+   food_stuff.append(item)
+   return food_stuff
+
+print(add_items([], 'Meat'))   
+
+
+
+def add_items (lst,item) :
+   numbers = [2, 3, 7, 9]
+   for i in lst :
+      numbers.append(i)
+   numbers.append(item)
+   return numbers
+
+print(add_items([], 5))    
 
 
 
 
+#12
