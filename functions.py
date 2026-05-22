@@ -143,11 +143,18 @@ print_list([8,5,7,3])
 
 def reversed_list(list) :
    reversed_list = []
-   for i in range (-1,-1,-1) :
+   for i in range (len(list)-1,-1,-1) :
       reversed_list.append(list[i])
-   return list
+   return reversed_list
+print(reversed_list([4,7,9,1]))
 
-print(reversed_list([1, 2, 3, 4, 5]))
+
+def reversed_list (list) :
+   reversed_list = []
+   for i in range (len(list)-1,-1,-1) :
+      reversed_list.append(list[i])
+   return reversed_list
+print(reversed_list(["A", "B", "C", "D", "E"]))
 
 
 
