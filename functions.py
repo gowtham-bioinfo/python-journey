@@ -317,6 +317,24 @@ show_args(name="Bob", pet="Fluffy, the bunny")
   
 #1
 
+def evens_and_odds (num) :
+   even = 0
+   odd = 0
+   for i in range (num + 1) :
+      if i % 2 == 0 :
+         even += i
+      else :
+         odd += i
+   return f"The Sum Of All Evens {even} \nThe Sum Of All Odds {odd}"
+
+print(evens_and_odds(100))
+
+
+#2
+
+
+
+
 
 
 
