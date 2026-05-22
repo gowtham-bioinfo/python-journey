@@ -273,6 +273,54 @@ print(sum_of_evens(10))
 
 #15
 
+def sum_of_odds (num) :
+   odd = 0
+   for i in range (1, num+1) :
+      if i %2 != 0 :
+         odd += i
+   return odd
+      
+print(sum_of_odds(3))      
+
+
+
+
+
+
+## Day 11 : 30 Days of python programming
+
+## Exercises: Level 2
+
+
+Declare a function named evens_and_odds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+    print(evens_and_odds(100))
+    # The number of odds are 50.
+    # The number of evens are 51.
+Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+Call your function is_empty, it takes a parameter and it checks if it is empty or not
+Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
+Write a function called greet which takes a default argument, name. If no argument is supplied it should print "Hello, Guest!", otherwise it should greet the person by name.
+    greet()
+    # "Hello, Guest!
+    greet("Alice")
+    # "Hello, Alice!"
+Create a function called show_args to take an arbitrary number of named arguments and print their names and values.
+show_args(name="Alice", age=30, city="New York")
+# Received: name: Alice, age: 30, city: New York
+show_args(name="Bob", pet="Fluffy, the bunny")
+# Received: name: Bob, pet: Fluffy, the bunny
+
+
+
+
+# MY CODE FOR ALL EX2 PROBLEMS
+  
+#1
+
+
+
+
+
 
 
 
