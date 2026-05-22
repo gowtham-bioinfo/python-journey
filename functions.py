@@ -406,6 +406,17 @@ print(calculate_std(data))
 
 #5
 
+def greet (name = "Guest") :
+   space = " "
+   print("Hello, " +  name + "!")
+greet()
+greet("Arya")
+
+
+#6
+
+
+
 
 
 
