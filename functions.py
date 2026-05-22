@@ -160,6 +160,17 @@ print(reversed_list(["A", "B", "C", "D", "E"]))
 
 #10
 
+def capitalize_list_items(list) :
+   capitalize = []
+   for items in list :
+      capitalize.append(items.upper())
+   return capitalize
+
+print(capitalize_list_items(["t", "y", "p", "a"]))
+
+
+#11
+
 
 
 
