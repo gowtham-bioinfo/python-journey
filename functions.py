@@ -208,3 +208,30 @@ print(add_items([], 5))
 
 
 #12
+
+
+
+def remove_item (lst, item) :
+   food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk'] 
+   for i in lst :
+      food_stuff.remove(i)
+   food_stuff.remove(item)   
+   return food_stuff
+print(remove_item([], "Mango"))
+                  
+
+def remove_item (lst, item) :
+   numbers = [2, 3, 7, 9]   
+   for i in lst :
+      numbers.remove(i)
+   numbers.remove(item)                  
+   return numbers
+
+print(remove_item([], 9))
+
+
+
+#13
+
+
+
