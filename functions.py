@@ -233,5 +233,36 @@ print(remove_item([], 9))
 
 #13
 
+def sum_of_numbers (num) :
+   total = 0
+   for i in range (1, num+1) :
+      total += 1
+   return total
+print(sum_of_numbers(5))
+
+
+
+
+def sum_of_numbers (num) :
+   total = 0
+   for i in range (1, num+1) :
+      total += i
+   return total
+print(sum_of_numbers(10))
+
+
+def sum_of_numbers (num) :
+   total = 0
+   for i in range (1, num + 1) :
+      total += i
+   return total
+print(sum_of_numbers(100)) 
+
+
+
+#14
+
+
+
 
 
