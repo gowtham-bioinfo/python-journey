@@ -262,6 +262,16 @@ print(sum_of_numbers(100))
 
 #14
 
+def  sum_of_evens (num) :
+   even = 0
+   for i in range (1, num+1) :
+      if i % 2 == 0 :
+         even += i
+   return even
+print(sum_of_evens(10))
+
+
+#15
 
 
 
