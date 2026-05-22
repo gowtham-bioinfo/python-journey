@@ -351,7 +351,60 @@ print(is_empty([]))
 print(is_empty(())) 
 
 
+#4
 
+
+def calculate_mean (num) :
+   return sum(num) / len(num)
+
+def calculate_median (num) :
+   num = sorted(num) 
+   n = len(num) 
+   mid = n // 2
+   if n % 2 == 0 :
+      return (num[mid - 1] + num[mid])/2
+   else :
+      return num [mid]
+
+
+
+def calculate_mode (numbers) :
+   frequency = {}
+   for num in numbers :
+      frequency [num] = frequency.get(num,0) + 1
+      
+   max_count = max(frequency.values())
+   for key, value in frequency.items() :
+      if value == max_count :
+         return key
+
+
+def calculate_range (num) :
+   return max(num) - min(num)      
+
+def calculate_variance (num) :
+   mean = sum(num) / len(num)
+   sqr_diff = [(x - mean) ** 2 for x in num]
+   return sum(sqr_diff) / len(num)
+
+
+import math 
+def calculate_std (num) :
+   variance = calculate_variance(num)
+   return math.sqrt(variance)
+
+
+data = [1,2,2,3,4]
+print(calculate_mean(data))
+print(calculate_median(data))
+print(calculate_mode(data))
+print(calculate_range(data))
+print(calculate_variance(data))
+print(calculate_std(data))
+
+
+
+#5
 
 
 
