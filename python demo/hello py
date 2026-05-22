@@ -1,0 +1,49 @@
+
+age = int(input("Enter your Age :"))
+
+if age >= 18 :
+    print("You are old enough to drive .")
+else :
+    years_left = 18-age
+    print(f"wait for {years_left} more years to drive")
+
+
+my_age = int(input("Enter My Age :"))
+your_age = int(input("Enter  Your Age :"))
+
+if my_age > your_age :
+    years = my_age - your_age
+    print(f"Iam {years} Older Than You .")
+elif your_age > my_age :
+    years = your_age - my_age
+    print(f"You are {years} Older than me")
+else :
+    print("we Both Are same Age.")
+
+
+a = int(input("Enter first Number :"))
+b = int(input("Enter Second Number :"))
+if a > b :
+    print("A is greater than B")
+elif a < b :
+    print("A is Smaller Than B ")
+else :
+    print("A is Equal To B")    
+
+marks = int(input("Enter Student Markrs:"))    
+if marks <= 90 or marks <= 100 :
+    grade = "A"
+elif marks <= 80 or marks <= 89 :
+    grade = "B"
+elif marks <= 70 or marks <= 79 :
+    grade = "C"
+elif marks <= 60 or marks <= 69 :
+    grade = "D"
+elif marks <= 0 or marks <= 59 :
+    grade = "F"
+        
+else :
+    grade = "Invalid Grade."    
+
+    print("Grade of the student is :", grade)
+    
