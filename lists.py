@@ -62,68 +62,6 @@ full_stack.insert(6,"SQL")
 print(full_stack)
 
 
-# Day 5  : 30 Days of python programming  , start = 6:29 pm | End =  10:53 pm | lists again
-
-
-empty=[]
-empty =["Pen","Book","Notes","Egg","Love"]
-print(len(empty))
-first = empty[0]
-middle = empty[2]
-last = empty[-1]
-print(first,middle,last)
-
-mixed_data_types = ["Arya","20","5'8","Not Married","ATP"]
-it_companies = ["Facebbok","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
-print(mixed_data_types)
-print(it_companies)
-print(len(it_companies))
-
-first = it_companies[0]
-middle = it_companies[3]
-last = it_companies[-1]
-print(first,middle,last)
-it_companies.append("Star Sports")
-print(it_companies)
-it_companies.insert(0,"Willow")
-print(it_companies)
-
-it_companies = ["Facebbok","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
-it_companies[0]=it_companies[0].upper()
-print(it_companies)
-result = " # " . join(it_companies)
-print(it_companies)
-print("Facebook" in it_companies)
-print(it_companies.sort)
-first3 = it_companies[0:3]
-print(first3)
-last3 = it_companies[-3:]
-it_companies.reverse()
-print(it_companies)
-first3 = it_companies[3]
-last = it_companies[-3:]
-middle = it_companies[4]
-
-it_companies = ["Facebbok","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
-first = it_companies[1:]
-print(first)
-it_companies.pop(-1)
-print(it_companies)
-middle = len(it_companies)//2
-it_companies.pop(middle)
-print(it_companies)
-
-front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
-back_end = ['Node','Express', 'MongoDB']
-result = front_end + back_end
-print(result)
-
-full_stack = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
-full_stack.insert(5, "Python")
-print(full_stack)
-full_stack.insert(6,"SQL")
-print(full_stack)
-
 
 #Exercise 2 
 
