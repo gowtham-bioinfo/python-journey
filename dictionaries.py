@@ -108,4 +108,3 @@ print(list[student])
 print(student.items())
 
 del student["first_name"]
-# del student
