@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Day 1: 30 Days of python programming | start = 7:00 pm | End = 12:00 am
 
 # Question 1:
@@ -105,7 +104,6 @@ year = int(input("Enter year :"))
 is_married = ("Enter statement :")
 is_true = input("Enter statement")
 is_light_on = input("Enter value :")
-=======
 # Day 1: 30 Days of python programming | start = 7:00 pm | End = 12:00 am
 
 # Question 1:
@@ -210,4 +208,3 @@ year = int(input("Enter year :"))
 is_married = ("Enter statement :")
 is_true = input("Enter statement")
 is_light_on = input("Enter value :")
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02

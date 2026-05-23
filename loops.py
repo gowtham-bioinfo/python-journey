@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Day 10 : 30 Days of python programming | start =  8:11 pm| End  =  pm
 
 
@@ -2641,59 +2640,56 @@ info = [
 #     for language in item ["languages"] :
 #         languages.add(language)
 # print("Total Number Of Langugages :", len(languages))   
-=======
 ## Day 9 : 30 Days of python programming
 
 
-Exercises: Level 1
-Iterate 0 to 10 using for loop, do the same using while loop.
+# Exercises: Level 1
+# Iterate 0 to 10 using for loop, do the same using while loop.
 
-Iterate 10 to 0 using for loop, do the same using while loop.
+# Iterate 10 to 0 using for loop, do the same using while loop.
 
-Write a loop that makes seven calls to print(), so we get on the output the following triangle:
+# Write a loop that makes seven calls to print(), so we get on the output the following triangle:
 
-  #
-  ##
-  ###
-  ####
-  #####
-  ######
-  #######
-Use nested loops to create the following:
+#   #
+#   ##
+#   ###
+#   ####
+#   #####
+#   ######
+#   #######
+# Use nested loops to create the following:
 
-# # # # # # # #
-# # # # # # # #
-# # # # # # # #
-# # # # # # # #
-# # # # # # # #
-# # # # # # # #
-# # # # # # # #
-# # # # # # # #
-Print the following pattern:
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# Print the following pattern:
 
-0 x 0 = 0
-1 x 1 = 1
-2 x 2 = 4
-3 x 3 = 9
-4 x 4 = 16
-5 x 5 = 25
-6 x 6 = 36
-7 x 7 = 49
-8 x 8 = 64
-9 x 9 = 81
-10 x 10 = 100
-Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+# 0 x 0 = 0
+# 1 x 1 = 1
+# 2 x 2 = 4
+# 3 x 3 = 9
+# 4 x 4 = 16
+# 5 x 5 = 25
+# 6 x 6 = 36
+# 7 x 7 = 49
+# 8 x 8 = 64
+# 9 x 9 = 81
+# 10 x 10 = 100
+# Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
 
-Use for loop to iterate from 0 to 100 and print only even numbers
+# Use for loop to iterate from 0 to 100 and print only even numbers
 
-Use for loop to iterate from 0 to 100 and print only odd numbers
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
-
+# Use for loop to iterate from 0 to 100 and print only odd numbers
 
 
 
 
-<<<<<<< HEAD
+
 # from collections import Counter
 # lang_count = Counter()
 
@@ -2712,7 +2708,6 @@ Use for loop to iterate from 0 to 100 and print only odd numbers
 #     for lang in item ["languages"] :
 #         languages.add(lang)
 # print("Total Number Of Languages :", len(languages))
-=======
 
 ## MY CODE FOR ALL EX1 PROBLEMS
 
@@ -2762,14 +2757,14 @@ for i in range (1,101) :
 ## Day 9 : 30 Days of python programming
 
 
-Exercises: Level 2
+# Exercises: Level 2
 
 
-Use for loop to iterate from 0 to 100 and print the sum of all numbers.
-The sum of all numbers is 5050.
-Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+# Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+# The sum of all numbers is 5050.
+# Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
 
-The sum of all evens is 2550. And the sum of all odds is 2500.
+# The sum of all evens is 2550. And the sum of all odds is 2500.
 
 
 
@@ -2810,12 +2805,12 @@ print("The sum of all odds is =", odds_sum)
 
 
 
-Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
-This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
-Go to the data folder and use the countries_data.py file.
-What are the total number of languages in the data
-Find the ten most spoken languages from the data
-Find the 10 most populated countries in the world
+# Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
+# This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
+# Go to the data folder and use the countries_data.py file.
+# What are the total number of languages in the data
+# Find the ten most spoken languages from the data
+# Find the 10 most populated countries in the world
 
 
 
@@ -2825,7 +2820,203 @@ Find the 10 most populated countries in the world
 
 ## MY CODE FOR ALL EX3 PROBLEMS 
 
-
+countries = [
+  'Afghanistan',
+  'Albania',
+  'Algeria',
+  'Andorra',
+  'Angola',
+  'Antigua and Barbuda',
+  'Argentina',
+  'Armenia',
+  'Australia',
+  'Austria',
+  'Azerbaijan',
+  'Bahamas',
+  'Bahrain',
+  'Bangladesh',
+  'Barbados',
+  'Belarus',
+  'Belgium',
+  'Belize',
+  'Benin',
+  'Bhutan',
+  'Bolivia',
+  'Bosnia and Herzegovina',
+  'Botswana',
+  'Brazil',
+  'Brunei',
+  'Bulgaria',
+  'Burkina Faso',
+  'Burundi',
+  'Cabo Verde',
+  'Cambodia',
+  'Cameroon',
+  'Canada',
+  'Central African Republic',
+  'Chad',
+  'Chile',
+  'China',
+  'Colombia',
+  'Comoros',
+  'Congo, Democratic Republic of the',
+  'Congo, Republic of the',
+  'Costa Rica',
+  "Côte d'Ivoire",
+  'Croatia',
+  'Cuba',
+  'Cyprus',
+  'Czech Republic',
+  'Denmark',
+  'Djibouti',
+  'Dominica',
+  'Dominican Republic',
+  'East Timor (Timor-Leste)',
+  'Ecuador',
+  'Egypt',
+  'El Salvador',
+  'Equatorial Guinea',
+  'Eritrea',
+  'Estonia',
+  'Eswatini',
+  'Ethiopia',
+  'Fiji',
+  'Finland',
+  'France',
+  'Gabon',
+  'Gambia',
+  'Georgia',
+  'Germany',
+  'Ghana',
+  'Greece',
+  'Grenada',
+  'Guatemala',
+  'Guinea',
+  'Guinea-Bissau',
+  'Guyana',
+  'Haiti',
+  'Honduras',
+  'Hungary',
+  'Iceland',
+  'India',
+  'Indonesia',
+  'Iran',
+  'Iraq',
+  'Ireland',
+  'Israel',
+  'Italy',
+  'Jamaica',
+  'Japan',
+  'Jordan',
+  'Kazakhstan',
+  'Kenya',
+  'Kiribati',
+  'Korea, North',
+  'Korea, South',
+  'Kuwait',
+  'Kyrgyzstan',
+  'Laos',
+  'Latvia',
+  'Lebanon',
+  'Lesotho',
+  'Liberia',
+  'Libya',
+  'Liechtenstein',
+  'Lithuania',
+  'Luxembourg',
+  'Madagascar',
+  'Malawi',
+  'Malaysia',
+  'Maldives',
+  'Mali',
+  'Malta',
+  'Marshall Islands',
+  'Mauritania',
+  'Mauritius',
+  'Mexico',
+  'Micronesia',
+  'Moldova',
+  'Monaco',
+  'Mongolia',
+  'Montenegro',
+  'Morocco',
+  'Mozambique',
+  'Myanmar',
+  'Namibia',
+  'Nauru',
+  'Nepal',
+  'Netherlands',
+  'New Zealand',
+  'Nicaragua',
+  'Niger',
+  'Nigeria',
+  'North Macedonia',
+  'Norway',
+  'Oman',
+  'Pakistan',
+  'Palau',
+  'Palestine',
+  'Panama',
+  'Papua New Guinea',
+  'Paraguay',
+  'Peru',
+  'Philippines',
+  'Poland',
+  'Portugal',
+  'Qatar',
+  'Romania',
+  'Russia',
+  'Rwanda',
+  'Saint Kitts and Nevis',
+  'Saint Lucia',
+  'Saint Vincent and the Grenadines',
+  'Samoa',
+  'San Marino',
+  'Sao Tome and Principe',
+  'Saudi Arabia',
+  'Senegal',
+  'Serbia',
+  'Seychelles',
+  'Sierra Leone',
+  'Singapore',
+  'Slovakia',
+  'Slovenia',
+  'Solomon Islands',
+  'Somalia',
+  'South Africa',
+  'South Sudan',
+  'Spain',
+  'Sri Lanka',
+  'Sudan',
+  'Suriname',
+  'Sweden',
+  'Switzerland',
+  'Syria',
+  'Tajikistan',
+  'Tanzania',
+  'Thailand',
+  'Togo',
+  'Tonga',
+  'Trinidad and Tobago',
+  'Tunisia',
+  'Turkey',
+  'Turkmenistan',
+  'Tuvalu',
+  'Uganda',
+  'Ukraine',
+  'United Arab Emirates',
+  'United Kingdom',
+  'United States',
+  'Uruguay',
+  'Uzbekistan',
+  'Vanuatu',
+  'Vatican City',
+  'Venezuela',
+  'Vietnam',
+  'Yemen',
+  'Zambia',
+  'Zimbabwe'
+]
 
 for country in countries :
     if "land" in country :
@@ -2839,35 +3030,29 @@ for i in range (len(fruits)-1,-1,-1) :
 print(rev_fruits)
 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 languages = set()
 
 for item in info :
-<<<<<<< HEAD
     for language in item["languages"] :
         languages.add(language)
 print("Total Number of languages :", len(languages))
-=======
-    for lang in item ["languages"] :
+for lang in item ["languages"] :
         languages.add(lang) 
 
 print("Total Number of languages =", len(languages))
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 
 
 
 from collections import Counter
 
-<<<<<<< HEAD
 language_count = Counter()
 for items in info :
     for language in items ["languages"] :
         language_count[language] += 1
 most_common_language = language_count.most_common(1)[0]
 print("Most Spoken Languages :", most_common_language[0])
-=======
 languages_count = Counter()
 
 for country in info :
@@ -2877,13 +3062,11 @@ for country in info :
 most_common_language = languages_count.most_common(1)[0]
 
 print("Most Spoken Language :", most_common_language[0])
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 print("Count :", most_common_language[1])
 
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -2893,7 +3076,6 @@ print("Count :", most_common_language[1])
 
 # for country in top_10 :
 #     print(country["name"], country["population"])
-=======
 from collections import Counter 
 
 language_count = Counter()
@@ -2914,14 +3096,12 @@ sorted_countries = sorted(info, key=lambda x : x["population"], reverse=True)
 top_10 = sorted_countries[:10]
 for country in top_10 :
     print(country["name"], country["population"])
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 
 
 
 
 
-<<<<<<< HEAD
 
 
 
@@ -2941,5 +3121,3 @@ for country in top_10 :
 
 
 
-=======
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02

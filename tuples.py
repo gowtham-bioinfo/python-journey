@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 # Day 6  : 30 Days of python programming  , start = 8:56 pm | End = 11:08 pm
 
@@ -47,18 +46,17 @@ print("Nodric Country" , nordic_country)
 
 nordic_country = "Iceland" in nordic_countries
 print("Nodric Country" , nordic_country)
-=======
 ## Day 5  : 30 Days of python programming
 
 ## Exercises: Level 1
 
 
-Create an empty tuple
-Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
-Join brothers and sisters tuples and assign it to siblings
-How many siblings do you have?
-Modify the siblings tuple and add the name of your father and mother and assign it to family_members
-Unpack siblings and parents from family_members
+# Create an empty tuple
+# Create a tuple containing names of your sisters and your brothers (imaginary siblings are fine)
+# Join brothers and sisters tuples and assign it to siblings
+# How many siblings do you have?
+# Modify the siblings tuple and add the name of your father and mother and assign it to family_members
+# Unpack siblings and parents from family_members
 
 
 
@@ -88,17 +86,17 @@ print("Sibligns", siblings)
 ## Day 5  : 30 Days of python programming
 
 
-Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
-Change the about food_stuff_tp tuple to a food_stuff_lt list
-Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
-Slice out the first three items and the last three items from food_stuff_lt list
-Delete the food_stuff_tp tuple completely
-Check if an item exists in tuple:
-Check if 'Estonia' is a nordic country
+# Create fruits, vegetables and animal products tuples. Join the three tuples and assign it to a variable called food_stuff_tp.
+# Change the about food_stuff_tp tuple to a food_stuff_lt list
+# Slice out the middle item or items from the food_stuff_tp tuple or food_stuff_lt list.
+# Slice out the first three items and the last three items from food_stuff_lt list
+# Delete the food_stuff_tp tuple completely
+# Check if an item exists in tuple:
+# Check if 'Estonia' is a nordic country
 
-Check if 'Iceland' is a nordic country
+# Check if 'Iceland' is a nordic country
 
-nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
+# nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 
 
 
@@ -177,7 +175,7 @@ movies.append(input("Enter Movie 5 : "))
 
 print(movies)
 
-Question 2 :
+# Question 2 :
 ## WAP to check if a list contains a palindrome of elements 
 ## A) [2,3,5,5]
 
@@ -205,10 +203,10 @@ copy_list.reverse()
 if (copy_list == list) :
     print("Palindrome")
 else :
-    print("Not Palindrome"
+    print("Not Palindrome")
 
 
-Question 3 :
+# Question 3 :
 ## WAP to count the number of students with the grade "A" in the following Tuple
 ## Store the above values in a list and sort them from "A" to "D"
 
@@ -224,4 +222,3 @@ print(grade)
 
 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02

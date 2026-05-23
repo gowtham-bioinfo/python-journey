@@ -1,64 +1,52 @@
-<<<<<<< HEAD
 # Day 10 : 30 Days of python programming 
-
-=======
-## Day 10 : 30 Days of python programming
 
 ## Exercises: Level 1
 
 
 
-Declare a function add_two_numbers. It takes two parameters and it returns a sum.
-Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.
-Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback.
-Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, convert_celsius_to-fahrenheit.
-Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
-Write a function called calculate_slope which return the slope of a linear equation
-Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, solve_quadratic_eqn.
-Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
-Declare a function named reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
-print(reverse_list([1, 2, 3, 4, 5]))
-# [5, 4, 3, 2, 1]
-print(reverse_list(["A", "B", "C"])) 
-# ["C", "B", "A"]
-Declare a function named capitalize_list_items. It takes a list as a parameter and it returns a capitalized list of items
-Declare a function named add_item. It takes a list and an item parameters. It returns a list with the item added at the end.
-food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk'];
-print(add_item(food_stuff, 'Meat'))     # ['Potato', 'Tomato', 'Mango', 'Milk','Meat'];
-numbers = [2, 3, 7, 9];
-print(add_item(numbers, 5))      # [2, 3, 7, 9, 5]
-Declare a function named remove_item. It takes a list and an item parameters. It returns a list with the item removed from it.
-food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
-print(remove_item(food_stuff, 'Mango'))  # ['Potato', 'Tomato', 'Milk'];
-numbers = [2, 3, 7, 9]
-print(remove_item(numbers, 3))  # [2, 7, 9]
-Declare a function named sum_of_numbers. It takes a number parameter and it adds all the numbers in that range.
-print(sum_of_numbers(5))  # 15
-print(sum_of_numbers(10)) # 55
-print(sum_of_numbers(100)) # 5050
-Declare a function named sum_of_odds. It takes a number parameter and it adds all the odd numbers in that range.
-Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
-
-
-
+# Declare a function add_two_numbers. It takes two parameters and it returns a sum.
+# Area of a circle is calculated as follows: area = π x r x r. Write a function that calculates area_of_circle.
+# Write a function called add_all_nums which takes arbitrary number of arguments and sums all the arguments. Check if all the list items are number types. If not do give a reasonable feedback.
+# Temperature in °C can be converted to °F using this formula: °F = (°C x 9/5) + 32. Write a function which converts °C to °F, convert_celsius_to-fahrenheit.
+# Write a function called check-season, it takes a month parameter and returns the season: Autumn, Winter, Spring or Summer.
+# Write a function called calculate_slope which return the slope of a linear equation
+# Quadratic equation is calculated as follows: ax² + bx + c = 0. Write a function which calculates solution set of a quadratic equation, solve_quadratic_eqn.
+# Declare a function named print_list. It takes a list as a parameter and it prints out each element of the list.
+# Declare a function na
+# med reverse_list. It takes an array as a parameter and it returns the reverse of the array (use loops).
+# print(reverse_list([1, 2, 3, 4, 5]))
+# # [5, 4, 3, 2, 1]
+# print(reverse_list(["A", "B", "C"])) 
+# # ["C", "B", "A"]
+# Declare a function named capitalize_list_items. It takes a list as a parameter and it returns a capitalized list of items
+# Declare a function named add_item. It takes a list and an item parameters. It returns a list with the item added at the end.
+# food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk'];
+# print(add_item(food_stuff, 'Meat'))     # ['Potato', 'Tomato', 'Mango', 'Milk','Meat'];
+# numbers = [2, 3, 7, 9];
+# print(add_item(numbers, 5))      # [2, 3, 7, 9, 5]
+# Declare a function named remove_item. It takes a list and an item parameters. It returns a list with the item removed from it.
+# food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk']
+# print(remove_item(food_stuff, 'Mango'))  # ['Potato', 'Tomato', 'Milk'];
+# numbers = [2, 3, 7, 9]
+# print(remove_item(numbers, 3))  # [2, 7, 9]
+# Declare a function named sum_of_numbers. It takes a number parameter and it adds all the numbers in that range.
+# print(sum_of_numbers(5))  # 15
+# print(sum_of_numbers(10)) # 55
+# print(sum_of_numbers(100)) # 5050
+# Declare a function named sum_of_odds. It takes a number parameter and it adds all the odd numbers in that range.
+# Declare a function named sum_of_even. It takes a number parameter and it adds all the even numbers in that - range.
 
 
 
 
 
 ## MY CODE FOR ALL EX1 PROBLEMS
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+
 
 #1
 def add_two_nums(num1,num2) :
   total = num1 + num2
   print(total)
-<<<<<<< HEAD
-add_two_nums(67,29)  
-=======
-add_two_nums(67,29) 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
-
 
 #2
 def calculate_area_of_circle(r) :
@@ -67,17 +55,12 @@ def calculate_area_of_circle(r) :
   print(area)
   return area
 
-<<<<<<< HEAD
-calculate_area_of_circle(9)
 
 
-=======
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 #3
 def add_all_nums(*args) :
    total = 0
    for item in args :
-<<<<<<< HEAD
       if type (item) == int or type(item) == float :
          total += item
       else :
@@ -93,21 +76,7 @@ def convert (celcius) :
    return farenheit
 print(convert(44))
 
-#5
 
-=======
-      if type(item) == int or type(item) == float :
-         total += item
-      else :
-         return f"Error : '{item}' is not a Number"
-   return total
-   
-print(add_all_nums(2,3,5))
-print(add_all_nums(2,3, "Hello"))
-
-
-
-#4
 
 def convertor (celcius) :
    farenheit = (celcius * 9/5) + 32
@@ -119,7 +88,6 @@ print(convertor(32))
 #5
 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 def check_season(month) :
     if month == "December" or month == "January" or month == "February" :
         return "Winter"
@@ -133,22 +101,13 @@ def check_season(month) :
 print(check_season("August"))
 
 
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 #6
 
 def calculate_slope (x1,y1,x2,y2) :
    slope = (y1-y2) / (x1-x2)
    return slope
-<<<<<<< HEAD
-print(calculate_slope(2,3,4,7))
 
-=======
-print(calculate_slope(2,5,7,3))
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+print(calculate_slope(2,3,4,7))
 
 
 #7
@@ -172,28 +131,18 @@ print(solve_quadratic_eqn(1,-5,6))
 
 #8
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 def print_list(list) :
    for item in list :
       print(item)
 
-<<<<<<< HEAD
 print_list([8,5,7,3])      
    
 
-# 9   
-=======
-print_list([8,5,7,3])  
-
-
+ 
 
 #9
 
-
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 def reversed_list(list) :
    reversed_list = []
    for i in range (len(list)-1,-1,-1) :
@@ -210,10 +159,7 @@ def reversed_list (list) :
 print(reversed_list(["A", "B", "C", "D", "E"]))
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 #10
 
 def capitalize_list_items(list) :
@@ -226,11 +172,9 @@ print(capitalize_list_items(["t", "y", "p", "a"]))
 
 
 #11
-<<<<<<< HEAD
-=======
 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+
 def add_item(lst,item) :
    added_lst = []
    for i in lst :
@@ -262,20 +206,11 @@ def add_items (lst,item) :
    return numbers
 
 print(add_items([], 5))    
-<<<<<<< HEAD
                   
                   
                   
-# 12                  
-=======
+# 12               
 
-
-
-
-#12
-
-
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 def remove_item (lst, item) :
    food_stuff = ['Potato', 'Tomato', 'Mango', 'Milk'] 
@@ -293,27 +228,17 @@ def remove_item (lst, item) :
    numbers.remove(item)                  
    return numbers
 
-<<<<<<< HEAD
 print(remove_item([], 9))               
-
-
-
-#13 
-                 
-=======
-print(remove_item([], 9))
 
 
 
 #13
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 def sum_of_numbers (num) :
    total = 0
    for i in range (1, num+1) :
       total += 1
    return total
-<<<<<<< HEAD
 print(sum_of_numbers(5))                  
             
 
@@ -323,11 +248,9 @@ def sum_of_numbers (num) :
       total += i
    return total
 print(sum_of_numbers(100)) 
-=======
 print(sum_of_numbers(5))
 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 
 def sum_of_numbers (num) :
@@ -337,10 +260,9 @@ def sum_of_numbers (num) :
    return total
 print(sum_of_numbers(10))
 
-<<<<<<< HEAD
 #14
 
-=======
+
 
 def sum_of_numbers (num) :
    total = 0
@@ -352,8 +274,6 @@ print(sum_of_numbers(100))
 
 
 #14
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
-
 def  sum_of_evens (num) :
    even = 0
    for i in range (1, num+1) :
@@ -363,11 +283,8 @@ def  sum_of_evens (num) :
 print(sum_of_evens(10))
 
 
-<<<<<<< HEAD
 
-=======
 #15
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 def sum_of_odds (num) :
    odd = 0
@@ -380,11 +297,9 @@ print(sum_of_odds(3))
 
 
 
-<<<<<<< HEAD
 # EXCERCISE 2
 
 #1
-=======
 
 
 
@@ -393,23 +308,23 @@ print(sum_of_odds(3))
 ## Exercises: Level 2
 
 
-Declare a function named evens_and_odds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
-    print(evens_and_odds(100))
-    # The number of odds are 50.
-    # The number of evens are 51.
-Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
-Call your function is_empty, it takes a parameter and it checks if it is empty or not
-Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
-Write a function called greet which takes a default argument, name. If no argument is supplied it should print "Hello, Guest!", otherwise it should greet the person by name.
-    greet()
-    # "Hello, Guest!
-    greet("Alice")
-    # "Hello, Alice!"
-Create a function called show_args to take an arbitrary number of named arguments and print their names and values.
-show_args(name="Alice", age=30, city="New York")
-# Received: name: Alice, age: 30, city: New York
-show_args(name="Bob", pet="Fluffy, the bunny")
-# Received: name: Bob, pet: Fluffy, the bunny
+# Declare a function named evens_and_odds . It takes a positive integer as parameter and it counts number of evens and odds in the number.
+#     print(evens_and_odds(100))
+#     # The number of odds are 50.
+#     # The number of evens are 51.
+# Call your function factorial, it takes a whole number as a parameter and it return a factorial of the number
+# Call your function is_empty, it takes a parameter and it checks if it is empty or not
+# Write different functions which take lists. They should calculate_mean, calculate_median, calculate_mode, calculate_range, calculate_variance, calculate_std (standard deviation).
+# Write a function called greet which takes a default argument, name. If no argument is supplied it should print "Hello, Guest!", otherwise it should greet the person by name.
+#     greet()
+#     # "Hello, Guest!
+#     greet("Alice")
+#     # "Hello, Alice!"
+# Create a function called show_args to take an arbitrary number of named arguments and print their names and values.
+# show_args(name="Alice", age=30, city="New York")
+# # Received: name: Alice, age: 30, city: New York
+# show_args(name="Bob", pet="Fluffy, the bunny")
+# # Received: name: Bob, pet: Fluffy, the bunny
 
 
 
@@ -418,7 +333,6 @@ show_args(name="Bob", pet="Fluffy, the bunny")
   
 #1
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 def evens_and_odds (num) :
    even = 0
    odd = 0
@@ -434,21 +348,15 @@ print(evens_and_odds(100))
 
 #2
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 def factorial (n) :
    result = 1
    for i in range (1, n+1) :
       result *= i
    return result
-<<<<<<< HEAD
 print(factorial(5))   
-=======
+
 print(factorial(5)) 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 #3
 
@@ -457,19 +365,14 @@ def is_empty (item) :
 
 print(is_empty(" "))
 print(is_empty([]))
-<<<<<<< HEAD
 print(is_empty(()))   
-=======
 print(is_empty(())) 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 
 #4
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+
 def calculate_mean (num) :
    return sum(num) / len(num)
 
@@ -519,10 +422,8 @@ print(calculate_variance(data))
 print(calculate_std(data))
 
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+
 #5
 
 def greet (name = "Guest") :
@@ -533,10 +434,9 @@ greet("Arya")
 
 
 #6
-<<<<<<< HEAD
-=======
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+
+
 def show_args (**kwargs) :
    output = []
    for key, value in kwargs.items() :
@@ -546,10 +446,7 @@ def show_args (**kwargs) :
 show_args(name="Alice", age=30, city="New York")
 
 
-
-<<<<<<< HEAD
  
-=======
 
 
 
@@ -558,13 +455,13 @@ show_args(name="Alice", age=30, city="New York")
 
 
 
-Write a function called is_prime, which checks if a number is prime.
-Write a functions which checks if all items are unique in the list.
-Write a function which checks if all the items of the list are of the same data type.
-Write a function which check if provided variable is a valid python variable
-Go to the data folder and access the countries-data.py file.
-Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
-Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
+# Write a function called is_prime, which checks if a number is prime.
+# Write a functions which checks if all items are unique in the list.
+# Write a function which checks if all the items of the list are of the same data type.
+# Write a function which check if provided variable is a valid python variable
+# Go to the data folder and access the countries-data.py file.
+# Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
+# Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
 
 
 
@@ -574,22 +471,14 @@ Create a function called the most_populated_countries. It should return 10 or 20
 
 
 #1
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 
 
+def show_args (**kwargs) :
+   output = []
+   for key, value in kwargs.items() :
+      output.append(f"{key} :{value}")
+   print("Recived :",",".join(output))
 
 
-<<<<<<< HEAD
-
-
-# def show_args (**kwargs) :
-#    output = []
-#    for key, value in kwargs.items() :
-#       output.append(f"{key} :{value}")
-#    print("Recived :",",".join(output))
-
-
-# show_args(name="Alice", age=30, city="New York")
-=======
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
+show_args(name="Alice", age=30, city="New York")

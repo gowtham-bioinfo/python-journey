@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Day 7  : 30 Days of python programming  , start = 8:00 pm | End = 10:24 pm
 # sets
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
@@ -22,7 +21,6 @@ B = {19, 22, 20, 25, 26, 24, 28, 27}
 st = A.union(B)
 print(st)
 
-=======
 ## Day 6  : 30 Days of python programming
 
 ## Exercises: Level 1
@@ -35,11 +33,11 @@ B = {19, 22, 20, 25, 26, 24, 28, 27}
 age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 
-Find the length of the set it_companies
-Add 'Twitter' to it_companies
-Insert multiple IT companies at once to the set it_companies
-Remove one of the companies from the set it_companies
-What is the difference between remove and discard
+# Find the length of the set it_companies
+# Add 'Twitter' to it_companies
+# Insert multiple IT companies at once to the set it_companies
+# Remove one of the companies from the set it_companies
+# What is the difference between remove and discard
 
 
 
@@ -61,22 +59,20 @@ print(it_companies)
 ## Exercises: Level 2
 
 
-Join A and B
-Find A intersection B
-Is A subset of B
-Are A and B disjoint sets
-Join A with B and B with A
-What is the symmetric difference between A and B
-Delete the sets completely
+# Join A and B
+# Find A intersection B
+# Is A subset of B
+# Are A and B disjoint sets
+# Join A with B and B with A
+# What is the symmetric difference between A and B
+# Delete the sets completely
 
 
 ## MY CODE FOR ALL PROBLEMS
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
 
 
 A = {19, 22, 24, 20, 25, 26}
 B = {19, 22, 20, 25, 26, 24, 28, 27}
-<<<<<<< HEAD
 st = A.intersection(B)
 print(A)
 
@@ -118,7 +114,6 @@ words =sentence.lower().split()
 unique_words = set(words)
 print(unique_words)
 print(len(unique_words))
-=======
 
 print(A.union(B))
 
@@ -139,9 +134,9 @@ del B
 ## Exercises: Level 3
 
 
-Convert the ages to a set and compare the length of the list and the set, which one is bigger?
-Explain the difference between the following data types: string, list, tuple and set
-I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
+# Convert the ages to a set and compare the length of the list and the set, which one is bigger?
+# Explain the difference between the following data types: string, list, tuple and set
+# I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 
 
   
@@ -159,4 +154,3 @@ print(len(unq_words))
 
 
 
->>>>>>> 7f0c54f091ce3a1078d5ec07c7055bed5e810e02
