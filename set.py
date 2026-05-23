@@ -1,36 +1,9 @@
-# Day 7  : 30 Days of python programming  , start = 8:00 pm | End = 10:24 pm
-# sets
-it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
-
-age = [22, 19, 24, 25, 26, 24, 25, 24]
-
-print(len(it_companies))
-
-it_companies.add("Twitter")
-print(it_companies)
-
-it_companies_2 = {"Cognizant","GRT","Tata","AWS","Meta"}
-it_companies.update(it_companies_2)
-print(it_companies)
-
-it_companies.remove('Google')
-print(it_companies)
-
-A = {19, 22, 24, 20, 25, 26}
-B = {19, 22, 20, 25, 26, 24, 28, 27}
-st = A.union(B)
-print(st)
-
-## Day 6  : 30 Days of python programming
+## Day 7  : 30 Days of python programming
 
 ## Exercises: Level 1
 
 
-# sets
 it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
-A = {19, 22, 24, 20, 25, 26}
-B = {19, 22, 20, 25, 26, 24, 28, 27}
-age = [22, 19, 24, 25, 26, 24, 25, 24]
 
 
 # Find the length of the set it_companies
