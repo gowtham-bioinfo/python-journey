@@ -1,5 +1,68 @@
 # Day 4  : 30 Days of python programming  , start = 10:48 | End = 12:47 am
 
+# xercises: Level 1
+# Iterate 0 to 10 using for loop, do the same using while loop.
+
+# Iterate 10 to 0 using for loop, do the same using while loop.
+
+# Write a loop that makes seven calls to print(), so we get on the output the following triangle:
+
+#   #
+#   ##
+#   ###
+#   ####
+#   #####
+#   ######
+#   #######
+# Use nested loops to create the following:
+
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# # # # # # # # #
+# Print the following pattern:
+
+# 0 x 0 = 0
+# 1 x 1 = 1
+# 2 x 2 = 4
+# 3 x 3 = 9
+# 4 x 4 = 16
+# 5 x 5 = 25
+# 6 x 6 = 36
+# 7 x 7 = 49
+# 8 x 8 = 64
+# 9 x 9 = 81
+# 10 x 10 = 100
+# Iterate through the list, ['Python', 'Numpy','Pandas','Django', 'Flask'] using a for loop and print out the items.
+
+# Use for loop to iterate from 0 to 100 and print only even numbers
+
+# Use for loop to iterate from 0 to 100 and print only odd numbers
+
+# Exercises: Level 2
+
+
+# Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+# The sum of all numbers is 5050.
+# Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+
+# The sum of all evens is 2550. And the sum of all odds is 2500.
+# Exercises: Level 3
+# Go to the data folder and use the countries.py file. Loop through the countries and extract all the countries containing the word land.
+# This is a fruit list, ['banana', 'orange', 'mango', 'lemon'] reverse the order using loop.
+# Go to the data folder and use the countries_data.py file.
+# What are the total number of languages in the data
+# Find the ten most spoken languages from the data
+# Find the 10 most populated countries in the world
+
+
+
+
+
 # empty list
 empty = []
 empty = ["Book","Pen","Notes","Chair","Mobile"]
@@ -32,7 +95,7 @@ it_companies =["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
 it_companies.reverse()
 print(it_companies)
 
-it_companies =["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
+it_companie=["Facebook","Google","Microsoft","Apple","IBM","Oracle","Amazon"]
 
 it_companies.reverse()
 first3 =it_companies[:3]
@@ -206,11 +269,6 @@ countries = countries = [
 'Liechtenstein',
 'Lithuania',
 'Luxembourg',
-'Madagascar',
-'Malawi',
-'Malaysia',
-'Maldives',
-'Mali',
 'Malta',
 'Marshall Islands',
 'Mauritania',
@@ -317,47 +375,3 @@ print("Third", third)
 print("Scandic Countries",scandiac_countries)
 
 
-
-# Day 6  : 30 Days of python programming  , start = 7:24 pm| End =  8:53 pm | Exercise 2 Again
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 26]
-ages.sort()
-print(ages)
-min_age = ages[0]
-max_age = ages[-1]
-print(min_age)
-print(max_age)
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 26]
-ages.append(min_age)
-print(ages)
-ages.append(max_age)
-print(ages)
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 26]
-ages.sort
-i = len(ages)
-
-if i % 2 == 0 :
-    median = (ages[i//2-1]+ages[i//2])
-else :
-    median = ages[i//2]   
-print(median)    
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 26]
-result = sum(ages) / len(ages)
-print(result)
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 26]
-ages.sort
-min_age = ages[0]
-max_age = ages[-1]
-print(min_age)
-print(max_age)
-
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 26]
-average = sum(ages) / len(ages)
-dif_min = abs(min_age-average)
-dif_max = abs(max_age-average)
-print("abs.min_age-average " ,dif_min)
-print("abs.max_age-average" , dif_max)
