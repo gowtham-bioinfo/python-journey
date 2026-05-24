@@ -459,15 +459,10 @@ show_args(name="Alice", age=30, city="New York")
 # Write a functions which checks if all items are unique in the list.
 # Write a function which checks if all the items of the list are of the same data type.
 # Write a function which check if provided variable is a valid python variable
-# Go to the data folder and access the countries-data.py file.
-# Create a function called the most_spoken_languages in the world. It should return 10 or 20 most spoken languages in the world in descending order
-# Create a function called the most_populated_countries. It should return 10 or 20 most populated countries in descending order.
-
-
 
 
   
-# MY CODE FOR ALL EX2 PROBLEMS
+# MY CODE FOR ALL EX3 PROBLEMS
 
 
 #1
@@ -482,3 +477,37 @@ def show_args (**kwargs) :
 
 
 show_args(name="Alice", age=30, city="New York")
+
+#2
+
+
+def unique(items) :
+   return len(items) == len(set(items))
+
+print(unique([1,2,3,4,5,5,6]))
+print(unique([1,2,3,4,5,6]))
+
+
+#3
+def data_type (items) :
+   first_type = type(items[0])
+   for item in items :
+      if type(item) != first_type :
+         return False
+
+   return True
+   
+print(data_type(["Dileep, Gowtham, 1, 2"]))
+print(data_type([1, 2,3,4]))
+print(data_type([1, "2",3,4]))
+
+
+
+#4
+def valid_variable(name) :
+   return name.isidentifier()
+
+print(valid_variable("dileep_gowtham"))
+print(valid_variable("1dileep_var"))
+
+
