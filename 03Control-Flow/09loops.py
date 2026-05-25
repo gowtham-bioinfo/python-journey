@@ -1,4 +1,4 @@
-# Day 10 : 30 Days of python programming
+# Day 9 : 30 Days of python programming
 
 # 💻 Exercises: Day 10
 # Exercises: Level 1
@@ -91,7 +91,7 @@ for i in range (1,101) :
 
 
 
-# Day 10 : 30 Days of python programming
+# Day 9 : 30 Days of python programming
 # Exercises: Level 2
 
 
