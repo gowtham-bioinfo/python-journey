@@ -1,6 +1,6 @@
-# Day 4  : 30 Days of python programming  , start = 10:48 | End = 12:47 am
+# Day 4  : 30 Days of python programming  
 
-# xercises: Level 1
+# Exercises: Level 1
 # Iterate 0 to 10 using for loop, do the same using while loop.
 
 # Iterate 10 to 0 using for loop, do the same using while loop.

@@ -1,4 +1,4 @@
-# Day 6  : 30 Days of python programming  , start = 8:56 pm | End = 11:08 pm
+# Day 5  : 30 Days of python programming  
 
 ## Exercises: Level 1
 # Create an empty tuple

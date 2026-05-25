@@ -1,4 +1,4 @@
-# Day 3 : 30 Days of python programming | start = 7:00 pm | End = 1:40 am
+# Day 3 : 30 Days of python programming 
 
 # Exercises - Day 3
 
@@ -58,7 +58,7 @@
 
  ## MY CODE FOR ALL THE QUESTIONS
 
-# Day 3 : 30 Days of python programming | start = 7:00 pm | End = 1:40 am
+# Day 3 : 30 Days of python programming 
 
 
 word1 = "Thirty"
@@ -136,7 +136,7 @@ area = 3.14 * radius ** 2
 print(f"The Area Of Cricle With Radius{area} meter square .")
 
 
-# Day 4 : 30 Days of python programming : Practising Strings agian | start = 7:00 pm | End = 9:30 pm
+# Practising Strings agian 
 
 word1 = ("Thirty")
 word2 = ("Days")

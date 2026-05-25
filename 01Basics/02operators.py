@@ -1,4 +1,4 @@
-# Day 2 : 30 Days of python programming | start = 7:28 pm | End  = 12:20 am
+# Day 2 : 30 Days of python programming 
 
 # Question 1 :
 # Declare Your Age, Height,Complex as Variable And Assign Value To It
@@ -173,7 +173,7 @@ for i in range (9 , 11) :
 
 
 
-# Day 2 : 30 Days of python programming | start = 7:28 pm | End  = 12:20 am
+# Day 2 : 30 Days of python programming 
 
 # Exercises - Day 2
 
@@ -221,7 +221,7 @@ for i in range (9 , 11) :
         
 
 ## MY CODE FOR ALL QUESTION
-# Day 2 : 30 Days of python programming | start = 7:28 pm | End  = 12:20 am
+# Day 2 : 30 Days of python programming 
 
 #1       
 age = 20
