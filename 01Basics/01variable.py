@@ -1,4 +1,4 @@
-# Day 1: 30 Days of python programming | start = 7:00 pm | End = 12:00 am
+# Day 1: 30 Days of python programming
 
 # Question 1:
 # Declare a first name , last name , full name , country , city , ag e, year , is_married , is_true , is_light_on  and variable and assign a value to it
@@ -104,7 +104,9 @@ year = int(input("Enter year :"))
 is_married = ("Enter statement :")
 is_true = input("Enter statement")
 is_light_on = input("Enter value :")
-# Day 1: 30 Days of python programming | start = 7:00 pm | End = 12:00 am
+
+
+# Day 1: 30 Days of python programming 
 
 # Question 1:
 # Declare a first name , last name , full name , country , city , ag e, year , is_married , is_true , is_light_on  and variable and assign a value to it
