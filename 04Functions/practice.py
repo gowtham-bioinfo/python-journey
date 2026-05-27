@@ -41,29 +41,43 @@
 #     faren = (celcius*9/5) + 32
 #     return faren
 
-# print(convert_celsius_to_fahrenheit(18))
+# # print(convert_celsius_to_fahrenheit(18))
 
 
-def check_season (month) : 
-    if month == "November" or month == "December" or month == "January" or month == "Februavry" :
-        return "Winter"
-    elif month == "March" or month == "April" or month == "May" :
-        return "Summer"
-    elif month == "June" or month == "July" or month == "August" :
-        return "Spring"
-    elif month == "September" or month == "October" :
-        return "Autumn"
-    else :
-        print("Invalid Month")
+# def check_season (month) : 
+#     if month == "November" or month == "December" or month == "January" or month == "Februavry" :
+#         return "Winter"
+#     elif month == "March" or month == "April" or month == "May" :
+#         return "Summer"
+#     elif month == "June" or month == "July" or month == "August" :
+#         return "Spring"
+#     elif month == "September" or month == "October" :
+#         return "Autumn"
+#     else :
+#         print("Invalid Month")
 
-print(check_season("October"))
+# print(check_season("October"))
 
 
 
-def print_list (item) :
-    for i in item :
-        print(i)
+# def print_list (item) :
+#     for i in item :
+#         print(i)
     
 
 
-print_list([2,3,4,5])
+# print_list([2,3,4,5])
+
+
+def print_rev (item) :
+    rev_lst = []
+    for i in range (len(item)-1,-1,-1) :
+        rev_lst.append(item[i])
+    return rev_lst
+
+print(print_rev([4,7,9,1]))
+
+
+
+
+    
