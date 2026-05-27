@@ -57,3 +57,13 @@ def check_season (month) :
         print("Invalid Month")
 
 print(check_season("October"))
+
+
+
+def print_list (item) :
+    for i in item :
+        print(i)
+    
+
+
+print_list([2,3,4,5])
