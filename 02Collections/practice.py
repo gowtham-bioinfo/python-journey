@@ -6,7 +6,7 @@ print(len(it_companies))
 
 it_companies.add("Twitter")
 print(it_companies)
-it_companies.update("AWS", "JP Morgan", "Deliotte", "Veetech")
+it_companies.update(["AWS", "JP Morgan", "Deliotte", "Veetech"])
 print(it_companies)
 
 print(it_companies)
@@ -61,3 +61,46 @@ elif st > lst :
     print("Set Is Biiger")
 else :
     print("Both are Equal")
+
+
+
+# Dictionary Practice :
+
+dog = {
+
+"name" : "Daisy",
+"color" : "Golden Brown",
+"breed" : "Shepherd",
+"legs" : "Good",
+"age" : "4",
+
+}
+
+student = {
+    "first_name" : "Dileep",
+    "last_name" : "Gowtham",
+    "gender" : "Male",
+    "skills" : ["Python", "Linux",  "Anatomy", "Git"],
+    "age" : "20",
+    "martial_Status" : "Unmarried",
+    "Country" : "India",
+    "city" : "Anantapur",
+    "Address" : "Uma Nagar"
+
+}
+
+print(len(student))
+print(type(student["skills"]))
+
+student["skills"].append("SQL")
+print(student)
+
+student["skills"].extend(["Bioinfo", "Blast"])
+print(student)
+
+
+print(list(student.keys()))
+print(list(student.values()))
+
+
+
