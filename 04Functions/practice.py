@@ -155,4 +155,19 @@ print(sum_of_evns(12))
 
 
 
+def evens_and_odds(n) :
+    evn = 0
+    odd = 0
+    for i in range (n+1) :
+        if i % 2 == 0 :
+            evn += i
+        else :
+            odd += i
+    return f"Sum Of Evens {evn}\nSum Of Odds {odd}"
+
+print(evens_and_odds(100))
+            
+
+
+
 
