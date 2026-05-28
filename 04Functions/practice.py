@@ -262,4 +262,32 @@ print(count)
 
 num = 1
 for i in range (1,6) :
-    print(num*i, i*1)
+    print(str(i)*i)
+
+
+
+
+
+
+
+text = input("Enter Input :")
+pal = text[::-1]
+if pal == text :
+    print("Palindrome")
+else :
+    print("Not Palindrome")
+
+
+ 
+
+for i in range(1,50) :
+    if i % 3 == 0 and i % 5 == 0 :
+        print(i)
+
+lst = [12, 45, 7, 89, 23]
+
+largest = lst[0]
+
+for i in lst :
+    if i > largest :
+      print(i)
