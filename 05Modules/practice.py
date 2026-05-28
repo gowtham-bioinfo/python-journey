@@ -1,3 +1,3 @@
-import excercises
+import exercises
 
-print(excercises.random_user_id())
+print(exercises.random_user_id())
