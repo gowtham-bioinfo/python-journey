@@ -168,6 +168,58 @@ def evens_and_odds(n) :
 print(evens_and_odds(100))
             
 
+def factorial (n) :
+    fact = n*n
+    return fact
+print(factorial(8))
 
 
+def greet(name = "Guest") :
+    space = " "
+    print("Hello ," + name + "!")
+greet()
+greet("Arya")
 
+    
+    
+    
+    
+for i in range (1,21) :
+    if i % 2 == 0 :
+        print(i)
+
+        
+        
+num = 5
+for i in range (1,11) :
+    print(num, "x", i, "=", num*i)
+
+
+total = 0
+for i in range (1,101) :
+    total += i
+print(total)
+
+
+num = 0
+
+while num <= 10 :
+    print(num)
+    num += 1
+
+
+for i in range (1,6) :
+    print("*" * i)
+
+
+for i in range (1,6) :
+    for j in range (1,6) :
+        print("*", end= " ")   
+    print() 
+
+
+num = int(input("Enter Number :"))
+fact = 1
+for i in range (1,num+1) :
+    fact = i * fact
+print(fact)
