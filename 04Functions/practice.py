@@ -223,3 +223,21 @@ fact = 1
 for i in range (1,num+1) :
     fact = i * fact
 print(fact)
+
+# Fibanoci Numbers :
+
+a = 0
+b = 1
+
+for i in range (10) :
+    print(a)
+    c = a+b
+    a = b
+    b = c
+print(b)
+
+
+num = input("Enter Numbers :").split(",")
+
+rev_num = num[::-1]
+print(rev_num)
