@@ -86,3 +86,23 @@ def rev_list (item) :
     return reverse_list
 
 print(rev_list(["A", "B", "C"]))
+
+
+def capitalize_list_items(items) :
+    cap = []
+    for i in items :
+        cap.append(i.upper())
+    return cap
+
+print(capitalize_list_items("python"))
+
+
+def added_lst (lst, item) :
+    new = []
+    for i in lst :
+        new.append(i)
+
+    new.append(item)
+    return new
+
+print(added_lst(["Mango", "Apple", "Orange", "Banana"], "Watermelon"))
