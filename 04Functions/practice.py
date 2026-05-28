@@ -241,3 +241,20 @@ num = input("Enter Numbers :").split(",")
 
 rev_num = num[::-1]
 print(rev_num)
+
+num = int(input("Enter Number :"))
+
+if num % 2 != 0 :
+    print("Odd")
+else :
+    print("Invalid")
+
+
+num = int(input("Enter Number :"))
+
+count = 0
+
+while num > 0 :
+    count += 1
+    num = num//10
+print(num)
