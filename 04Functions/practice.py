@@ -257,4 +257,9 @@ count = 0
 while num > 0 :
     count += 1
     num = num//10
-print(num)
+print(count)
+
+
+num = 1
+for i in range (1,6) :
+    print(num*i, i*1)
