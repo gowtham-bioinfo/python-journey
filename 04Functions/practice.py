@@ -79,5 +79,10 @@ print(print_rev([4,7,9,1]))
 
 
 
+def rev_list (item) :
+    reverse_list = []
+    for i in range (len(item)-1,-1,-1) :
+        reverse_list.append(item[i])
+    return reverse_list
 
-    
+print(rev_list(["A", "B", "C"]))
