@@ -106,3 +106,53 @@ def added_lst (lst, item) :
     return new
 
 print(added_lst(["Mango", "Apple", "Orange", "Banana"], "Watermelon"))
+
+
+
+def add_item (lst, item) :
+    new = []
+    for i in lst :
+        new.append(i)
+    new.append(item)
+    return new
+    
+print(add_item(['Potato', 'Tomato', 'Mango', 'Milk'], "Meat"))
+
+
+def sum_of_numbers(n) :
+    total = 0
+    for i in range (1, n+1) :
+        total += i
+    return total
+
+print(sum_of_numbers(5))
+
+
+
+def  sum_of_odds(n) :
+    odds = 0
+    for i in range (1, n+1) :
+        if i % 2 != 0 :
+            odds += i
+    return odds
+    
+print(sum_of_odds(7))
+
+
+
+
+
+
+
+def sum_of_evns (n) :
+    sum_evns = 0
+    for i in range (1, n+1) :
+        if i % 2 == 0 :
+            sum_evns += i
+    return sum_evns    
+
+print(sum_of_evns(12))
+
+
+
+
