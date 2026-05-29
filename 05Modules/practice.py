@@ -1,8 +1,14 @@
-import exercises
 
-print(exercises.random_user_id())
+def generate_name(first_name, last_name) :
+    space = " "
+    full_name = first_name + space + last_name
+    return full_name
 
 
-import exercises
 
-print(exercises.generate_name("Dileep", "Gowtham"))
+import random
+import string
+
+def random_user () :
+    characters = string.ascii_lowercase + string.digits
+    return "".join(random.choice(characters) for _ in range(6))
