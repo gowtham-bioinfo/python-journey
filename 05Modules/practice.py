@@ -102,10 +102,9 @@ def shuffle_list (item) :
 numbers = [1,2,3,4,5]
 print(shuffle_list(numbers))
 
-import random 
+import random
 
 def random_unq_num () :
     numbers = random.sample(range(10),7)
     return numbers
-
 print(random_unq_num())
