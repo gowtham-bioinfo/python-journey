@@ -143,22 +143,17 @@ print(list_of_hexa_colors(3))
 
 #2
 
+import random
 
-def list_of_rgb_colors(n):
-    colors = []
-    for _ in range(n):
-        r = random.randint(0, 255)
-        g = random.randint(0, 255)
-        b = random.randint(0, 255)
-        colors.append((r, g, b))
-    return colors
-
-
-n = int(input("Enter number of RGB colors: "))
-
-
-result = list_of_rgb_colors(n)
-print("RGB Colors:", result)
+def list_of_rgb_colors() :
+    colours = []
+    for _ in range (5) :
+        r = random.randint(0,255)
+        g = random.randint(0,255)
+        b = random.randint(0,255)
+        colour = f"rgb({r},{g},{b})"
+        colours.append(colour)
+    return colours
 
 
 
