@@ -92,3 +92,12 @@ def generate_colour(colour_type, count) :
     
 print(generate_colour("hexa", 5))
 print(generate_colour("rgb", 3))
+
+import random
+
+def shuffle_list (item) :
+    random.shuffle(item)
+    return item
+
+numbers = [1,2,3,4,5]
+print(shuffle_list(numbers))
