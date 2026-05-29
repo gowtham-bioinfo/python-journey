@@ -52,6 +52,6 @@ def list_of_hexa_colors() :
     for _ in range (5) :
         colour = "#"+"".join(random.choice(hex) for _ in range (6))
         colours.append(colour)
-        return colours
+    return colours
     
 print(list_of_hexa_colors())
