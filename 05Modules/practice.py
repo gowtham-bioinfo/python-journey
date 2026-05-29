@@ -27,7 +27,7 @@ def user_id_gen_by_user () :
         print("".join(random.choice(characters) for _ in range (char)))
         
 
-user_id_gen_by_user()
+# user_id_gen_by_user()   # made it comment to run file in exercsies , like import you can comeent out and run it here it self
 
 
 
@@ -39,3 +39,19 @@ def  rgb_color_gen() :
     b = random.randint(0,255)
 
     return f"rgb {r} {g} {b}"
+
+# print(rgb_color_gen())     # made it comment to run file in exercsies , like import you can comeent out and run it here it self
+
+
+import random
+
+def list_of_hexa_colors() :
+    hex = "0123456789abcdef"
+    colours = []
+
+    for _ in range (5) :
+        colour = "#"+"".join(random.choice(hex) for _ in range (6))
+        colours.append(colour)
+        return colours
+    
+print(list_of_hexa_colors())
