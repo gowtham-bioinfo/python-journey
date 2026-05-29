@@ -1,4 +1,6 @@
 import practice
 
-print(practice.random_user())
-print(practice.generate_name("Dileep", "Gowtham"))
+# print(practice.random_user())
+# print(practice.generate_name("Dileep", "Gowtham"))
+# print(practice.user_id_gen_by_user())
+print(practice.rgb_color_gen())

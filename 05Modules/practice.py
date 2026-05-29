@@ -27,5 +27,15 @@ def user_id_gen_by_user () :
         print("".join(random.choice(characters) for _ in range (char)))
         
 
-
 user_id_gen_by_user()
+
+
+
+import random 
+
+def  rgb_color_gen() :
+    r = random.randint(0,255)
+    g = random.randint(0,255)
+    b = random.randint(0,255)
+
+    return f"rgb {r} {g} {b}"
