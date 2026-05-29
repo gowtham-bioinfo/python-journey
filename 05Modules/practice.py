@@ -68,37 +68,5 @@ def list_of_rgb_colors() :
         colours.append(colour)
     return colours
 
+# print(list_of_rgb_colors())    # made this comment to run file in exercsies , like import you can comeent out and run it here it self
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# import random
-
-# def list_of_rgb_colors() :
-#     colours = []
-#     r = random.randint(0,255)
-#     g = random.randint(0,255)
-#     b = random.randint(0,255)
-#     colour = f"rgb({r},{g},{b})"
-#     colours.append(colour)
-#     return colours
-
-# print(list_of_rgb_colors())
