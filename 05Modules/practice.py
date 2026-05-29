@@ -70,3 +70,65 @@ def list_of_rgb_colors() :
 
 # print(list_of_rgb_colors())    # made this comment to run file in exercsies , like import you can comeent out and run it here it self
 
+
+import random 
+
+def generate_colour(colour_type, count) :
+    colours = []
+    if colour_type == "hexa" :
+        hex_char = "0123456789abcdef"
+        for _ in range (count) :
+            colour = "#"+ "".join(random.choice(hex_char)for _ in range(6))
+            colours.append(colour)
+        return colours
+    elif colour_type == "rgb" :
+        for _ in range (count) :
+            r = random.randint(0,255) 
+            g = random.randint(0,255) 
+            b = random.randint(0,255) 
+            colour = f"rgb({r},{g},{b})"
+            colours.append(colour)
+        return colours
+    
+print(generate_colour("hexa", 5))
+print(generate_colour("rgb", 3))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# import random
+
+# def generate_colour (colour_type, count) :
+#     colours = []
+#     if colour_type == "hexa" :
+#         hex_char = "0123456789abcdef"
+#         for _ in range (count) :
+#         colour = "#" + "".join(random.choice(hex_char) for _ in range(6))
+#         colours.append(colour)
+#         return colours
+#     elif colour_type == "rgb" :
+#         for _ in range (count) :
+#           r = random.randint(0,255)
+#           g = random.randint(0,255)
+#           b = random.randint(0,255)
+
+#         colour = f"rgb({r},{g},{b})"
+#         colours.append(colour)
+#     return colours
+
+
+# print(generate_colour("hexa", 5))
+# print(generate_colour("rgb", 3))
