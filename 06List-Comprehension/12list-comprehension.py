@@ -81,10 +81,23 @@ countries = [[('Finland', 'Helsinki')],
             [('Sweden', 'Stockholm')], 
             [('Norway', 'Oslo')]]
 result = [[country[0].upper(),
-           country[:3][0].upper(),
+           country[0][:3].upper(),
            country[1].upper()]
            for sublist in countries
            for country in sublist
            ]
 
+print(result)
+
+
+#5
+names = [[('Asabeneh', 'Yetayeh')], 
+         [('David', 'Smith')], 
+         [('Donald', 'Trump')], 
+         [('Bill', 'Gates')]]
+
+result = [name[0] + " " + name[1]
+          for sublist in names
+          for name in sublist
+          ]
 print(result)
