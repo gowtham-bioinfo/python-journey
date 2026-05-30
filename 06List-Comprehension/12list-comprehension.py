@@ -1,4 +1,4 @@
-# Day 11 : 30 Days of python programming 
+# Day 12 : 30 Days of python programming 
 
 # Exercises: Day 11
 # Filter only negative and zero in the list using list comprehension
