@@ -52,3 +52,9 @@
 
 
 #1
+
+
+numbers = [-4, -3, -2, -1, 0, 2, 4, 6]
+filterd = [n for n in numbers if n <= 0]
+
+print(filterd)
