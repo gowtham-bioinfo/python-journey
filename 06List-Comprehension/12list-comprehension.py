@@ -63,6 +63,13 @@ print(filterd)
 #2
 
 list_of_lists =[[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-flattend_list = [item for sublist in list_of_lists for item in item ]
+flattend_list = [item for sublist in list_of_lists for item in sublist]
 
 print(flattend_list)
+
+
+#3
+
+result = [(n, 1, n, n**2, n**3, n**4, n**5)for n in range (11)]
+print(result)
+
