@@ -40,7 +40,6 @@
 # names = [[('Asabeneh', 'Yetayeh')], [('David', 'Smith')], [('Donald', 'Trump')], [('Bill', 'Gates')]]
 # output
 # ['Asabeneh Yetaeyeh', 'David Smith', 'Donald Trump', 'Bill Gates']
-# Write a lambda function which can solve a slope or y-intercept of linear functions.
 
 
 
