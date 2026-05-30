@@ -73,3 +73,18 @@ print(flattend_list)
 result = [(n, 1, n, n**2, n**3, n**4, n**5)for n in range (11)]
 print(result)
 
+
+#4
+
+
+countries = [[('Finland', 'Helsinki')],
+            [('Sweden', 'Stockholm')], 
+            [('Norway', 'Oslo')]]
+result = [[country[0].upper(),
+           country[:3][0].upper(),
+           country[1].upper()]
+           for sublist in countries
+           for country in sublist
+           ]
+
+print(result)
