@@ -155,3 +155,31 @@ def multiply(a, b):
 num1 = 5
 num2 = 4
 print("Product =", multiply(num1, num2))
+
+
+
+
+## Day 13 : 30 Days of python programming
+
+# Exercise 2 – Intermediate
+
+
+# Write a recursive function to find the nth Fibonacci number.
+# Write a recursive function to generate the Fibonacci series up to n terms.
+# Write a recursive function to find the greatest common divisor (GCD) of two numbers.
+# Write a recursive function to convert a decimal number to binary.
+# Write a recursive function to find the sum of elements in a list.
+# Write a recursive function to find the maximum element in a list.
+# Write a recursive function to count occurrences of a given element in a list.
+# Write a recursive function to check if a list is sorted.
+# Write a recursive function to flatten a nested list.
+# Write a recursive function to search for an element in a list.
+
+
+
+
+## MY CODE FOR ALL EX2 PROBLEMS
+
+
+#1
+
