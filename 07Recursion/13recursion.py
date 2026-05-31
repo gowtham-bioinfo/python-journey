@@ -97,3 +97,16 @@ def sum_of_digits(n):
 
 num = 12345
 print("Sum of digits =", sum_of_digits(num))
+
+
+
+#7
+
+def count_digits(n):
+    if n < 10:  
+        return 1
+    return 1 + count_digits(n // 10)  
+
+
+num = 12345
+print("Number of digits =", count_digits(num))
