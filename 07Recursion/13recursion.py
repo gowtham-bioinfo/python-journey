@@ -141,3 +141,17 @@ if is_palindrome(text):
     print("Palindrome")
 else:
     print("Not a palindrome")
+
+
+
+# 10
+
+def multiply(a, b):
+    if b == 0:  
+        return 0
+    return a + multiply(a, b - 1)  
+
+
+num1 = 5
+num2 = 4
+print("Product =", multiply(num1, num2))
