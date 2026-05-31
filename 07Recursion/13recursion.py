@@ -30,3 +30,16 @@ def factorial(n):
 
 num = 5
 print("Factorial of", num, "is", factorial(num))
+
+
+#2
+
+def sum_natural(n):
+    if n == 1:  
+        return 1
+    else:
+        return n + sum_natural(n - 1)  
+
+
+num = 5
+print("Sum of first", num, "natural numbers is", sum_natural(num))
