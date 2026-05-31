@@ -71,3 +71,29 @@ def print_numbers(n):
 
 
 print_numbers(5)
+
+
+#5
+
+
+def power(x, n):
+    if n == 0:  
+        return 1
+    return x * power(x, n - 1)  
+
+
+base = 2
+exponent = 5
+print(f"{base}^{exponent} =", power(base, exponent))
+
+
+#6
+
+
+def sum_of_digits(n):
+    if n == 0:  
+        return 0
+    return (n % 10) + sum_of_digits(n // 10)  
+
+num = 12345
+print("Sum of digits =", sum_of_digits(num))
