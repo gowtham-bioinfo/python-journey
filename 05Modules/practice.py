@@ -108,3 +108,7 @@ def random_unq_num () :
     numbers = random.sample(range(10),7)
     return numbers
 print(random_unq_num())
+
+
+
+

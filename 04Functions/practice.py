@@ -290,4 +290,6 @@ largest = lst[0]
 
 for i in lst :
     if i > largest :
-      print(i)
+        largest = i
+
+print(largest)        
