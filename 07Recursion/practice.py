@@ -35,5 +35,16 @@ def factorial(x) :
         return 1
     else :
         return x * factorial(x-1)
+print(factorial(10))
 
 
+
+
+#4
+
+def factorial(n) :
+    if n == 0 or n == 1 :
+        return 1
+    return factorial(n-1) * n
+
+print(factorial(4))
