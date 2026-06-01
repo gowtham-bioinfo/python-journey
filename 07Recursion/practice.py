@@ -1,5 +1,4 @@
-#1Sum
-
+#1Factorial
 
 def fact(n) :
     if (n == 1 or n == 0) :
@@ -8,6 +7,7 @@ def fact(n) :
 print(fact(4))
 
 
+#2Sum
 def calc_sum (n) :
     if (n == 0) :
         return 0
@@ -17,6 +17,7 @@ sum = calc_sum(5)
 print(sum)
 
 
+#3List
 def print_list(list, idx=0) :
     if (idx == len(list)) :
         return
