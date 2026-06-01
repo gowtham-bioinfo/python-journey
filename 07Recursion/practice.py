@@ -56,3 +56,12 @@ def sum_of_n(n) :
         return 0
     return sum_of_n(n-1) + n
 print(sum_of_n(4))
+
+
+def print_numbers (n) :
+    if n == 0 :
+        return
+    print(n)
+    print_numbers(n-1) 
+
+print_numbers(5)
