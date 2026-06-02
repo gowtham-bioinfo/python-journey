@@ -284,12 +284,4 @@ for i in range(1,50) :
     if i % 3 == 0 and i % 5 == 0 :
         print(i)
 
-lst = [12, 45, 7, 89, 23]
-
-largest = lst[0]
-
-for i in lst :
-    if i > largest :
-        largest = i
-
-print(largest)        
+    
