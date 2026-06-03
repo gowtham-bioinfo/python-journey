@@ -81,3 +81,16 @@ def factorial (n) :
     return factorial(n-1) * n
 
 print(factorial(4))
+
+
+
+def power(x, n):
+    if n == 0:  
+        return 1
+    return x * power(x, n - 1)  
+
+
+base = 2
+exponent = 5
+print(f"{base}^{exponent} =", power(base, exponent))
+
