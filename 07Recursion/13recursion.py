@@ -230,3 +230,17 @@ def gcd(a, b):
 
 
 print(gcd(48, 18))  
+
+
+
+#4
+
+def decimal_to_binary(n):
+    if n == 0:
+        return ""
+    return decimal_to_binary(n // 2) + str(n % 2)
+
+
+num = 10
+result = decimal_to_binary(num)
+print(result if result else "0")  
