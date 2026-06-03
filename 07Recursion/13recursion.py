@@ -194,3 +194,28 @@ def fibonacci(n):
 
 
 print(fibonacci(6))  
+
+
+#2
+
+def fibonacci_series(n, series=None):
+    if series is None:
+        series = []
+
+   
+    if len(series) == n:
+        return series
+
+  
+    if len(series) == 0:
+        series.append(0)
+    elif len(series) == 1:
+        series.append(1)
+    else:
+        series.append(series[-1] + series[-2])
+
+    return fibonacci_series(n, series)
+
+
+
+print(fibonacci_series(6)) 
