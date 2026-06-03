@@ -134,3 +134,13 @@ else:
     print("Not a palindrome")
 
 
+def multiply(a, b):
+    if b == 0:  
+        return 0
+    return a + multiply(a, b - 1)  
+
+
+num1 = 5
+num2 = 4
+print("Product =", multiply(num1, num2))
+
