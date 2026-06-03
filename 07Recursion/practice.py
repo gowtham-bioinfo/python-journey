@@ -103,3 +103,15 @@ def sum_of_digits(n):
 num = 12345
 print("Sum of digits =", sum_of_digits(num))
 
+
+
+
+def reverse_string(s):
+    if len(s) <= 1:  
+        return s
+    return reverse_string(s[1:]) + s[0] 
+
+
+text = "hello"
+print("Reversed string:", reverse_string(text))
+
