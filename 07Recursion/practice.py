@@ -248,3 +248,13 @@ else :
 
 print(palindrome("madam"))
 print(palindrome("Hello"))
+
+
+
+def product (a, b) :
+    if b == 0 :
+        return 0
+    return a + product(a, b-1)
+
+print(product(3,5))
+print(product(4,2))
