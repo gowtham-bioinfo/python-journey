@@ -199,3 +199,22 @@ def sum_of_digits(n) :
     return (n % 10) + sum_of_digits(n // 10)
 
 print(sum_of_digits(8))
+
+
+
+def count_digits(n) :
+    if n == 0 :
+        return 0
+    return 1 + count_digits(n//10)
+
+print(count_digits(1234))
+
+
+
+def reverse_str(s) :
+    if len(s) <= 1 :
+        return s
+    return reverse_str(s[1:]) + s[0]
+
+text = "hello"
+print(f"Reverse String :", reverse_str(text))
