@@ -160,3 +160,34 @@ def fibonacci(n):
 
 print(fibonacci(6))  
 
+
+
+
+def factorial(n) :
+    if (n == 1 or n == 0) :
+        return 1
+    return factorial(n-1) * n
+print(factorial(5))
+
+
+def sum_of_nat(n) :
+    if (n == 0) :
+        return 0
+    return sum_of_nat(n-1) + n
+print(sum_of_nat(5))
+
+
+def calc_sum(n) :
+    if (n == 0) :
+        return 0
+    return calc_sum(n-1) + n
+print(calc_sum(5))
+
+
+
+def power (x, n) :
+    if n == 0 :
+        return 1
+    return x * power(x, n-1)
+
+print(power(4,5))
