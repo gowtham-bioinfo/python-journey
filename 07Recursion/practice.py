@@ -218,3 +218,14 @@ def reverse_str(s) :
 
 text = "hello"
 print(f"Reverse String :", reverse_str(text))
+
+
+
+text = input("Enter Input :")
+
+rev = text[::-1]
+
+if text == rev :
+    print("Palindrome")
+else :
+    print("Not Palindrome")
