@@ -126,22 +126,24 @@ print("Reversed string:", reverse_string(text))
 
 
 #9
-
-def is_palindrome(s):
-    if len(s) <= 1:  
+def palindrome(text) :
+    if len(text) <= 1 :
         return True
-    if s[0] != s[-1]:  
+    if text[0] != text[-1] :
         return False
-    return is_palindrome(s[1:-1])  
-
+    return palindrome(text[1:-1])
 
 text = "radar"
 
-if is_palindrome(text):
+if palindrome(text) :
     print("Palindrome")
-else:
-    print("Not a palindrome")
+else :
+    print("Not Palindrome")
 
+#2nd Method , you can use and check by removing string if you want to check multiple texts
+
+# print(palindrome("madam"))
+# print(palindrome("Hello"))
 
 
 # 10

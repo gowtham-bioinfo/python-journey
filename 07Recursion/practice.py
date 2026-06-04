@@ -229,3 +229,22 @@ if text == rev :
     print("Palindrome")
 else :
     print("Not Palindrome")
+
+
+
+def palindrome(text) :
+    if len(text) <= 1 :
+        return True
+    if text[0] != text[-1] :
+        return False
+    return palindrome(text[1:-1])
+
+text = "radar"
+
+if palindrome(text) :
+    print("Palindrome")
+else :
+    print("Not Palindrome")
+
+print(palindrome("madam"))
+print(palindrome("Hello"))
